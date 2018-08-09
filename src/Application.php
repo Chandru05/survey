@@ -8,6 +8,7 @@ use Cake\Routing\Middleware\AssetMiddleware;
 use Cake\Routing\Middleware\RoutingMiddleware;
 
 /**
+*Test Code added - please ignore
  * Application setup class.
  *
  * This defines the bootstrapping logic and middleware layers you
