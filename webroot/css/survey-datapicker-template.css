@@ -1,0 +1,68 @@
+/*
+
+	INSTRUCTIONS ---------------------------------------------------------------------------------
+  
+  1. link this stylesheet in the head of your HTML
+  	 <link href="YOUR PATH/survey-template.css" rel="stylesheet" type="text/css" />
+     
+  2. Set the file name as data-theme attribute on your input
+  	 <input data-theme="survey-template" />
+     
+  3. That's it!
+  
+  When you run script the style will be automatically applied.
+
+*/
+div.datedropper.survey-template {
+  border-radius: 0px;
+  width: 180px;
+}
+div.datedropper.survey-template .picker {
+  border-radius: 0px;
+  box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0);
+}
+div.datedropper.survey-template .pick-l {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+div.datedropper.survey-template:before,
+div.datedropper.survey-template .pick-submit,
+div.datedropper.survey-template .pick-lg-b .pick-sl:before,
+div.datedropper.survey-template .pick-m,
+div.datedropper.survey-template .pick-lg-h {
+  background-color: #007bff;
+}
+div.datedropper.survey-template .pick-y.pick-jump,
+div.datedropper.survey-template .pick li span,
+div.datedropper.survey-template .pick-lg-b .pick-wke,
+div.datedropper.survey-template .pick-btn {
+  color: #007bff;
+}
+div.datedropper.survey-template .picker,
+div.datedropper.survey-template .pick-l {
+  background-color: #FFF;
+}
+div.datedropper.survey-template .picker,
+div.datedropper.survey-template .pick-arw,
+div.datedropper.survey-template .pick-l {
+  color: #4D4D4D;
+}
+div.datedropper.survey-template .pick-m,
+div.datedropper.survey-template .pick-m .pick-arw,
+div.datedropper.survey-template .pick-lg-h,
+div.datedropper.survey-template .pick-lg-b .pick-sl,
+div.datedropper.survey-template .pick-submit {
+  color: #FFF;
+}
+div.datedropper.survey-template.picker-tiny:before,
+div.datedropper.survey-template.picker-tiny .pick-m {
+  background-color: #FFF;
+}
+div.datedropper.survey-template.picker-tiny .pick-m,
+div.datedropper.survey-template.picker-tiny .pick-m .pick-arw {
+  color: #4D4D4D;
+}
+div.datedropper.survey-template.picker-lkd .pick-submit {
+  background-color: #FFF;
+  color: #4D4D4D;
+}
